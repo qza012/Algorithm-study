@@ -4,7 +4,7 @@ import java.math.*;
 
 public class Main { 
 	public static void main(String[] args) throws IOException { 
-    	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		PrintWriter out = new PrintWriter(System.out);
 		StringTokenizer in = new StringTokenizer(reader.readLine());
 		
