@@ -4,17 +4,17 @@ import java.math.*;
 
 public class Main { 
 	public static void main(String[] args) throws IOException { 
-    	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		PrintWriter out = new PrintWriter(System.out);
-        
-       	int callCount = Integer.parseInt(reader.readLine());
+
+		int callCount = Integer.parseInt(reader.readLine());
 		StringTokenizer in = new StringTokenizer(reader.readLine());
-		
-        int YBill = 0;
-        int MBill = 0;
-        
-        for(int i = 0; i < callCount; ++i ){
-            int callTime = Integer.parseInt(in.nextToken());
+
+		int YBill = 0;
+		int MBill = 0;
+
+		for(int i = 0; i < callCount; ++i ){
+			int callTime = Integer.parseInt(in.nextToken());
 			YBill += (callTime / 30 + 1) * 10;
 			MBill += (callTime / 60 + 1) * 15;
 		}
