@@ -8,7 +8,7 @@ public class Main {
 		PrintWriter out = new PrintWriter(System.out);
         
         int callCount = Integer.parseInt(reader.readLine());
-		    StringTokenizer in = new StringTokenizer(reader.readLine());
+	StringTokenizer in = new StringTokenizer(reader.readLine());
 		
         int YBill = 0;
         int MBill = 0;
