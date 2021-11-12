@@ -47,7 +47,7 @@ class Solution {
         }
         
         for (Map.Entry<String, Integer> e : list.entrySet()) {
-            if (list.get(e.getKey()) != 0) {
+            if (e.getValue() != 0) {
                 return e.getKey();
             }
         }
