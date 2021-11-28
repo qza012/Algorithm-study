@@ -11,8 +11,9 @@ class Solution {
         int[] leftHandNums = new int[] {1, 4, 7};
         int[] rightHandNums = new int[] {3, 6, 9};
         
-        int leftHandNum = 0;
-        int rightHandNum = 0;
+        // * = 10, # = 12로 치환
+        int leftHandNum = 10;
+        int rightHandNum = 12;
         
         for (int num : numbers) {
             
@@ -101,7 +102,6 @@ class Solution {
         // 5, 7차이 = 3
         // 9 차이 = 3
         // 8, 10 차이 = 4
-        
         
         // abs == 8 || abs == 10
         return 4;
